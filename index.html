@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Deals Store - Markaz Reseller</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+        body { background-color: #f4f4f9; padding-bottom: 50px; }
+        header { background: #111; color: white; text-align: center; padding: 20px 10px; }
+        header h1 { font-size: 24px; }
+        header p { font-size: 14px; color: #bbb; margin-top: 5px; }
+
+        .container { max-width: 1000px; margin: 20px auto; padding: 0 15px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+
+        .card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.08); display: flex; flex-direction: column; justify-content: space-between; }
+        .card img { width: 100%; height: 220px; object-fit: cover; }
+        .card-body { padding: 15px; text-align: center; }
+        .card-title { font-size: 16px; font-weight: bold; color: #333; margin-bottom: 8px; }
+        .card-price { font-size: 18px; font-weight: bold; color: #27ae60; margin-bottom: 15px; }
+
+        .btn-whatsapp { 
+            display: inline-block; 
+            width: 100%; 
+            padding: 10px 0; 
+            background-color: #25D366; 
+            color: white; 
+            text-decoration: none; 
+            font-weight: bold; 
+            border-radius: 5px; 
+            font-size: 14px; 
+        }
+        .btn-whatsapp:hover { background-color: #1ebc57; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Need Finder Global Store</h1>
+        <p>Order Anything via Cash on Delivery</p>
+    </header>
+
+    <div class="container">
+        <div class="grid">
+
+            <!-- Product 1 -->
+            <div class="card">
+                <img src="https://via.placeholder.com/250" alt="Product Image">
+                <div class="card-body">
+                    <div class="card-title">Wireless Bluetooth Earbuds</div>
+                    <div class="card-price">Rs. 1,999</div>
+                    <a href="https://wa.me/YOUR_WHATSAPP_NUMBER?text=Hi%2C%20I%20want%20to%20order%20Wireless%20Bluetooth%20Earbuds%20(Price%3A%20Rs.%201999)" class="btn-whatsapp" target="_blank">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="card">
+                <img src="https://via.placeholder.com/250" alt="Product Image">
+                <div class="card-body">
+                    <div class="card-title">Smart Watch Full Touch Display</div>
+                    <div class="card-price">Rs. 2,850</div>
+                    <a href="https://wa.me/YOUR_WHATSAPP_NUMBER?text=Hi%2C%20I%20want%20to%20order%20Smart%20Watch%20(Price%3A%20Rs.%202850)" class="btn-whatsapp" target="_blank">Order on WhatsApp</a>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="card">
+                <img src="https://via.placeholder.com/250" alt="Product Image">
+                <div class="card-body">
+                    <div class="card-title">Mens Printed Casual Shirt</div>
+                    <div class="card-price">Rs. 1,499</div>
+                    <a href="https://wa.me/YOUR_WHATSAPP_NUMBER?text=Hi%2C%20I%20want%20to%20order%20Mens%20Casual%20Shirt%20(Price%3A%20Rs.%201499)" class="btn-whatsapp" target="_blank">Order on WhatsApp</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
